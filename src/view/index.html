@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body class="container">
+  <div class="coloumns is-centered" style="margin: auto;">
+    <h1>
+      <span class="icon">
+        <i class="fas fa-home"></i>
+      </span>
+      Screen Recorder
+    </h1>
+  </div>
+  <div class="container">
+    <video id='video-port'></video>
+  </div>
+
+  <div class="columns is-centered" style="margin-top: 2em;">
+    <button id="startR" class='button is-primary'>Start Recording</button>
+    <button id="stopR" class='button is-warning'>Stop Recording</button>
+  </div>
+  <hr />
+  <div class="columns is-centered">
+    <button id="chooseVid" class='button is-text'>Choose Source Screen</button>
+  </div>
+
+  <!-- You can also require other files to run in this process -->
+  <script defer>require('../renderer.bundle.js')</script>
+</body>
+
+</html>

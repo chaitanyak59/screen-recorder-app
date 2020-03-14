@@ -1,0 +1,44 @@
+{
+  "name": "chai_recorder",
+  "version": "1.0.0",
+  "description": "A screen recorder",
+  "author": "Chaitanya",
+  "license": "MIT",
+  "main": "build/main.bundle.js",
+  "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/preset-typescript": "^7.8.3",
+    "@types/dom-mediacapture-record": "^1.0.3",
+    "@types/electron": "^1.6.10",
+    "@types/node": "12",
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.23.0",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.1.1",
+    "electron": "^8.1.1",
+    "electron-builder": "^22.4.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "lint": "eslint --ext ts src",
+    "build": "webpack -p",
+    "start": "electron build/main.bundle.js --dev",
+    "pack:mac": "CSC_IDENTITY_AUTO_DISCOVERY=false electron-builder"
+  },
+  "build": {
+    "mac": {
+      "category": "public.app-category.utilities",
+      "target": "dmg"
+    },
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "build/**/*"
+    ],
+    "asar": true
+  }
+}
