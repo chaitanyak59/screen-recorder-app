@@ -4,7 +4,7 @@ A Cross Platform Desktop Application built by Electron framework which can do sc
 ![Electron](https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/resource/icon_electron.png?itok=_2KcKlUm)
 ![Typescript](https://studywebdevelopment.com/images/typescript-logo.jpg)
 ## Getting Started
-Make sure that Node is installed on your machine.
+Make sure that Node is installed on your machine. <br />
 This Project will improve futher as well.
 Dont conclude your thoughts after seeing code :D
 
