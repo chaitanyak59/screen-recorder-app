@@ -1,6 +1,6 @@
 # Screen Recorder Desktop App
 
-A Cross Platform Desktop Application built by Electron framework which can do screen capture and store your recordings.
+A Cross Platform Desktop Application built with Electron framework, which can do screen capture and store your recordings.
 ![Electron](https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/resource/icon_electron.png?itok=_2KcKlUm)
 ![Typescript](https://studywebdevelopment.com/images/typescript-logo.jpg)
 ## Getting Started
