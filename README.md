@@ -19,7 +19,7 @@ Suggested approach <b>Yarn</b>
 4) yarn start(Dev Mode)
 > APP MODE
 
-Currently configuration is written for mac, but your are free to generate any os dependent pacakgess as this project uses electron-builder.
+Currently configuration is written for mac, but your are free to generate any os dependent packages as this project uses electron-builder.
 
 Drop your OS & App configuration in build section of package.json
 >FOR Mac Users
