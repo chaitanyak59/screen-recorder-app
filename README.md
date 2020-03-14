@@ -26,7 +26,7 @@ Drop your OS & App configuration in build section of package.json
 1) yarn pack:mac
 2) Under dist folder dmg is created
 
-### And coding style tests
+### Linter
 Project is written using typescript and uses
 latest definitions(with a bit of compromises).
 
