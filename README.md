@@ -1,7 +1,8 @@
-# Screen Recorder Desktop App ![Electron](https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/resource/icon_electron.png?itok=_2KcKlUm)
+# Screen Recorder Desktop App
 
-A Cross Platform Desktop Application built by Electron framework which can do screen capture and store your recordings
-
+A Cross Platform Desktop Application built by Electron framework which can do screen capture and store your recordings.
+![Electron](https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/resource/icon_electron.png?itok=_2KcKlUm)
+![Typescript](https://studywebdevelopment.com/images/typescript-logo.jpg)
 ## Getting Started
 Make sure that Node is installed on your machine.
 This Project will improve futher as well.
