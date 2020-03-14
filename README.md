@@ -1,4 +1,4 @@
-# Screen Recorder Desktop App
+# Screen Recorder Desktop App ![Electron](https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/resource/icon_electron.png?itok=_2KcKlUm)
 
 A Cross Platform Desktop Application built by Electron framework which can do screen capture and store your recordings
 
@@ -9,7 +9,7 @@ Dont conclude your thoughts after seeing code :D
 
 ### Installing
 
-Suggested approach ~Yarn~
+Suggested approach <b>Yarn</b>
 
 >DEV MODE
 1) Pull source code
