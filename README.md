@@ -35,7 +35,7 @@ Also added <b>ESLint</b> which is the latest standard for linting TS projects.
 ## Built With
 
 * [Webpack](http://webpack.github.io/) - Bundler
-* [Eectron](https://www.electronjs.org/) - Framwork for Dekstop Applications
+* [Electron](https://www.electronjs.org/) - Framwork for Dekstop Applications
 * [ES Lint](https://eslint.org/) - For Linting TS projects
 * [Electron Builder](https://www.electron.build/) - For creating installers/packages
 
