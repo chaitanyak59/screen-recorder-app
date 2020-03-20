@@ -1,6 +1,6 @@
 # Screen Recorder Desktop App
 
-A Cross Platform Desktop Application built by Electron framework which can do screen capture and store your recordings.
+A Cross Platform Desktop Application built with Electron framework, which can do screen capture and store your recordings.
 ![Electron](https://www.programmableweb.com/sites/default/files/styles/article_profile_150x150/public/resource/icon_electron.png?itok=_2KcKlUm)
 ![Typescript](https://studywebdevelopment.com/images/typescript-logo.jpg)
 ## Getting Started
@@ -19,14 +19,14 @@ Suggested approach <b>Yarn</b>
 4) yarn start(Dev Mode)
 > APP MODE
 
-Currently configuration is written for mac, but your are free to generate any os dependent pacakgess as this project uses electron-builder.
+Currently configuration is written for mac, but your are free to generate any os dependent packages as this project uses electron-builder.
 
 Drop your OS & App configuration in build section of package.json
 >FOR Mac Users
 1) yarn pack:mac
 2) Under dist folder dmg is created
 
-### And coding style tests
+### Linter
 Project is written using typescript and uses
 latest definitions(with a bit of compromises).
 

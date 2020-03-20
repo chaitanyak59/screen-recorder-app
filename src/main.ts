@@ -2,7 +2,7 @@ import { app, BrowserWindow } from 'electron';
 import * as path from 'path';
 import { loadAppEvents } from './app';
 
-app.commandLine.appendArgument("--enable-features=Metal"); // For Screen Recorder
+app.commandLine.appendArgument("--enable-features=Metal"); // For Catalina Warnings
 function isDev(): boolean {
     return process.argv[2] == '--dev';
 }
