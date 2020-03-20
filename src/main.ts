@@ -27,9 +27,7 @@ const createWindow = (): void => {
     })
 
     mainWindow.loadFile(htmlViewPath)
-    mainWindow.on('ready-to-show', () => {
-        mainWindow.show();
-    });
+    mainWindow.on('ready-to-show', mainWindow.show);
 
     if(isDev()) {
         mainWindow.webContents.openDevTools();
